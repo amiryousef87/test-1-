@@ -1,0 +1,56 @@
+/* index.css */  
+body {  
+  background-color: black; /* رنگ پس‌زمینه سیاه */  
+  margin: 0; /* حذف حاشیه‌های پیش‌فرض */  
+}  
+
+input {  
+  color: white; /* رنگ متن فیلد ورودی به سفید */  
+  background-color: black; /* رنگ پس‌زمینه فیلد ورودی به سیاه */  
+}  
+
+.task-text {  
+  color: white; /* رنگ متن تسک‌ها به سفید */  
+  transition: color 0.3s; /* افزودن انتقال رنگ */  
+}  
+
+.task-hover {  
+  color: green !important; /* رنگ هنگام hover به سبز */  
+}  
+
+.list-item {  
+  background-color: #444; /* رنگ پس‌زمینه تسک‌ها */  
+  transition: background-color 0.3s; /* افزودن انتقال رنگ */  
+}  
+
+.list-item:hover {  
+  background-color: #555; /* تغییر رنگ پس‌زمینه هنگام hover */  
+}  
+
+.delete-icon {  
+  color: white;  
+  transition: color 0.3s; /* افزودن انتقال رنگ برای آیکون حذف */  
+}  
+
+.delete-icon:hover {  
+  color: red; /* رنگ آیکون سطل زباله هنگام hover به قرمز */  
+}
+/* index.css */  
+.task-text {  
+  color: white; /* رنگ متن تسک‌ها به سفید */  
+  transition: color 0.3s; /* افزودن انتقال رنگ */  
+}  
+
+/* .list-item:hover .task-text {  
+  color: green; /* تغییر رنگ متن تسک به سبز هنگام hover */  
+  */
+
+.list-item {  
+  background-color: #444; /* رنگ پس‌زمینه تسک‌ها */  
+  transition: background-color 0.3s; /* افزودن انتقال رنگ */  
+}  
+
+.list-item:hover {  
+  background-color: #555; /* تغییر رنگ پس‌زمینه هنگام hover */  
+}  
+
